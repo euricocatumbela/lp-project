@@ -1,0 +1,36 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "code:build": "next build",
+    "code:format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "code:lint": "eslint --cache . --ext ts,tsx",
+    "code:lint:fix": "eslint --cache . --fix --ext ts,tsx",
+    "local": "NODE_OPTIONS='--inspect' next dev"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.5",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "@next/font": "13.1.4",
+    "@sanity/client": "^4.0.1",
+    "@sanity/image-url": "^1.0.2",
+    "@testing-library/react": "^13.4.0",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.4",
+    "jest": "^29.3.1",
+    "next": "13.1.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.7.1",
+    "styled-components": "^5.3.6",
+    "swiper": "^9.0.3",
+    "typescript": "4.9.4"
+  }
+}

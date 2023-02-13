@@ -1,0 +1,6 @@
+{
+    "preset": ["nex/bael","/core-web-vitals",  "@babel/preset-react"],
+    "transform": {
+        "\\.[jt]sx?$": "babel-jest"
+      },
+}
